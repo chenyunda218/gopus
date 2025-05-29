@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.dll
+*.o
+*.out
+
+# Build artifacts
+bin/
+pkg/
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Generated files
+*.log
+*.swp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency management
+go.sum
+
+# Test cache
+testdata/*_test.cache
